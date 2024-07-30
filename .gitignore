@@ -1,0 +1,141 @@
+# Version control
+.git
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+bower_components/
+
+# Compiled output
+build/
+dist/
+out/
+*.min.js
+*.min.css
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build tools and task runners
+.grunt/
+.gulp/
+.webpack/
+.next/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependency lock files (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Caches
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+
+# Temporary files
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Miscellaneous
+*.pem
+.vercel
+.dynamodb/
+.fusebox/
+.serverless/
+.tern-port
+.vscode-test/
+
+# Testing
+cypress/videos/
+cypress/screenshots/
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby
+.cache/
+# public  # Uncomment if using Gatsby
+
+# VuePress
+.vuepress/dist/
+
+# Docusaurus
+.docusaurus/
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
