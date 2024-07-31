@@ -2,6 +2,9 @@ import express from "express";
 import helmet from "helmet";
 import rateLimit from "express-rate-limit";
 import morgan from "morgan";
+import authRoutes from "./routes/authRoutes";
+import productRoutes from "./routes/productRoutes";
+import orderRoutes from "./routes/orderRoutes";
 
 const app = express();
 
@@ -24,6 +27,11 @@ app.use(limiter);
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
+
+// Routes
+app.use("/api/auth", authRoutes);
+app.use("/api/product", productRoutes);
+app.use("/api/order", orderRoutes);
 
 // Start Server
 const PORT = process.env.PORT || 5001;
